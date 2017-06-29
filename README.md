@@ -20,15 +20,15 @@
 
 ### Specific tasks
 
-#### Start development
+#### Start the local development server
 
 1. `yarn start` or `npm start`
 1. Visit [http://localhost:3000/](http://localhost:3000/)
 
-#### Run the tests
+#### Run the tests on the console
 
 - `yarn test` or `npm test`
 
-#### Build everything
+#### Build everything for deploy
 
 - `yarn build` or `npm build`
