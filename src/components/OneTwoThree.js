@@ -1,39 +1,29 @@
 import React from 'react';
 
-import one from '../data/one.json';
-import two from '../data/two.json';
-import three from '../data/three.json';
+import utils from '../utils.js';
 
-const random = (min, max) => {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min)) + min;
-};
+// images
+import oneImage from '../images/one.png';
+import twoImage from '../images/two.png';
+import threeImage from '../images/three.png';
 
-const fakeAJAXCall = (json) => {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve(json);
-    }, random(500, 2500));
-  });
-};
+// data
+import oneData from '../data/one.json';
+import twoData from '../data/two.json';
+import threeData from '../data/three.json';
 
 const OneTwoThree = () => {
 
-  fakeAJAXCall(one).then((result) => {
-    console.log(result);
-  });
-
-  fakeAJAXCall(two).then((result) => {
-    console.log(result);
-  });
-
-  fakeAJAXCall(three).then((result) => {
-    console.log(result);
-  });
+  // utils.fakeAJAXCall(oneData)
+  //   .then((result) => {
+  //     console.log(result);
+  //   });
 
   return (
     <div className="OneTwoThree">
+      <img src={oneImage} alt="" />
+      <img src={twoImage} alt="" />
+      <img src={threeImage} alt="" />
     </div>
   );
 };
