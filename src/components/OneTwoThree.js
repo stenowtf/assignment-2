@@ -20,11 +20,30 @@ const OneTwoThree = () => {
   //   });
 
   return (
-    <div className="OneTwoThree">
-      <img src={oneImage} alt="" />
-      <img src={twoImage} alt="" />
-      <img src={threeImage} alt="" />
-    </div>
+    <section className="oneTwoThree">
+      <h1>The Best Way to Work Together</h1>
+      <h2>We design and develop software for shools.</h2>
+
+      <div className="content">
+
+      </div>
+
+      <div>
+        <img src={oneImage} alt="" />
+        <h3>One</h3>
+        <p>Button for show dynamic data</p>
+      </div>
+      <div>
+        <img src={twoImage} alt="" />
+        <h3>Two</h3>
+        <p>Button for show dynamic data</p>
+      </div>
+      <div>
+        <img src={threeImage} alt="" />
+        <h3>Three</h3>
+        <p>Button for show dynamic data</p>
+      </div>
+    </section>
   );
 };
 

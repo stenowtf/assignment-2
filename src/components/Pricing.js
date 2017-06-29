@@ -2,8 +2,8 @@ import React from 'react';
 
 const Pricing = () => {
   return (
-    <div className="Pricing">
-    </div>
+    <section className="pricing">
+    </section>
   );
 };
 
