@@ -7,13 +7,13 @@ import logo from '../images/logo.png';
 
 const Header = () => {
   return (
-    <header className="Header">
+    <header className="header">
       <Grid>
         <Row>
-          <Col className="logo" sm={6} md={3}>
+          <Col className="logo" md={2}>
             <img src={logo} alt="Logo" />
           </Col>
-          <Col className="menu" sm={6} md={9}>
+          <Col className="menu" md={10}>
             <List horizontal link>
               <List.Item as='a'>Features</List.Item>
               <List.Item as='a'>Pricing</List.Item>
