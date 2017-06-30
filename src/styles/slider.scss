@@ -1,6 +1,4 @@
 .carousel {
-  height: 500px;
-
   .slide {
     background-color: #fff;
 
@@ -15,5 +13,14 @@
       width: 50%;
       float: left;
     }
+  }
+
+  .control-next.control-arrow:before {
+    color: #000;
+  }
+
+  .control-dots {
+    top: 200px;
+    margin-left: 25%;
   }
 }

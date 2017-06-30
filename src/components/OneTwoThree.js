@@ -12,6 +12,8 @@ import oneData from '../data/one.json';
 import twoData from '../data/two.json';
 import threeData from '../data/three.json';
 
+import '../styles/oneTwoThree.css'
+
 const OneTwoThree = () => {
 
   // utils.fakeAJAXCall(oneData)
