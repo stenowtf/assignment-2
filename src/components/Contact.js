@@ -1,6 +1,8 @@
 import React from 'react';
 import { Button, Form } from 'semantic-ui-react';
 
+import '../styles/contact.css';
+
 const Contact = () => {
   return (
     <section className="contact">

@@ -51,6 +51,7 @@ Welcome! 🙂
 - Miscellaneous improvements:
   - Header links slide the page to corresponding section
   - Introducing some `Sass` variables
+  - More relative units
 
 ---
 

@@ -1,0 +1,78 @@
+.pricing {
+  padding: 2em 0 4em 0;
+  background-color: #f9f9f9;
+
+  h2 {
+    max-width: 60%;
+    margin: 0 auto 2em;
+  }
+
+  .plansContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    .plan {
+      width: 280px;
+      padding: 2em;
+      border-right: 1px solid #f4f4f4;
+      background-color: #fff;
+
+      & * {
+        color: #9097a0;
+      }
+
+      .description {
+        height: 75px;
+      }
+
+      .price {
+        color: #43484d;
+        font-size: 300%;
+        margin: 0.2em 0 0 0;
+      }
+
+      .subPrice {
+        margin-bottom: 2em;
+      }
+
+      .titleContainer,
+      .priceContainer {
+        border-bottom: 1px solid #f4f4f4;
+      }
+
+      h3 {
+        font-size: 80%;
+        letter-spacing: 2px;
+        color: #39add1;
+        margin-bottom: 0.5em;
+      }
+
+      h6 {
+        margin-bottom: 1.5em;
+      }
+
+      &.selected {
+        background-color: #39add1;
+        border-right: none;
+
+        & * {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  ul {
+    text-align: left;
+    margin: 2em 0;
+
+    li {
+      margin: 1em 0;
+    }
+
+    li.notSelected {
+      text-decoration: line-through;
+    }
+  }
+}
