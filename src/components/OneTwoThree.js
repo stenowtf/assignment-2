@@ -18,7 +18,9 @@ const update = () => {
 
   utils.fakeAJAXCall(last)
     .then((result) => {
-      $('.oneTwoThree > .content').html(JSON.stringify(result.item));
+      $('.oneTwoThree > .content').html(
+        utils.formatResult(result.item)
+      );
     });
 };
 
@@ -45,7 +47,7 @@ const OneTwoThree = () => {
       </div>
 
       <div className="content">
-        {/*lodead from JSON*/}
+        <span>... click on the buttons below ...</span>
       </div>
 
       <div className="actionsSection">
