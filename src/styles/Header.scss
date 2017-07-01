@@ -1,9 +1,10 @@
-header {
+.header {
   position: fixed;
   background-color: #fff;
+  z-index: 1;
 
   .logo {
-    margin-top: 10px;
+    margin: 10px 0;
   }
 
   .menu {
