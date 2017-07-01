@@ -2,12 +2,41 @@
   position: fixed;
   background-color: #fff;
   z-index: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 
   .logo {
-    margin: 10px 0;
+    margin: 1em 0;
+    width: 150px;
   }
 
-  .menu {
-    margin-top: 25px;
+  ul {
+    margin: 0 0 1em 0;
+    display: flex;
+    width: auto;
+    justify-content: flex-start;
+
+    li a {
+      margin-right: 2em;
+      color: #5e6977;
+    }
+  }
+}
+
+@media screen and (min-width: 667px) {
+  .header {
+    flex-direction: row;
+
+    ul {
+      width: auto;
+      margin: 1em 0 1em 5em;
+      justify-content: center;
+      align-items: center;
+
+      li {
+        margin-right: 2em;
+      }
+    }
   }
 }

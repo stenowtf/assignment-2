@@ -22,10 +22,6 @@
         font-family: "Roboto", "Open Sans", "Fira Sans", "Lucida Sans", "Lucida Sans Unicode", "Trebuchet MS", "Liberation Sans", "Nimbus Sans L", sans-serif;
       }
 
-      & * {
-        color: #9097a0;
-      }
-
       .description {
         height: 75px;
       }
@@ -64,6 +60,11 @@
           color: #fff;
         }
       }
+
+      & .glyphicon-ok {
+        color: #21BA45;
+        margin-right: 0.3em;
+      }
     }
   }
 
@@ -73,10 +74,11 @@
 
     li {
       margin: 1em 0;
+      color: #5e6977;
     }
 
     li.notSelected {
-      text-decoration: line-through;
+      color: #bfc7ce;
     }
   }
 }

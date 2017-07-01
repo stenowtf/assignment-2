@@ -1,8 +1,8 @@
 .oneTwoThree {
-  margin-top: 100px;
+  margin-top: 8em;
 
   .headers {
-    margin-bottom: 40px;
+    margin-bottom: 2em;
   }
 
   .content {
@@ -47,6 +47,10 @@
       margin: 5px;
       cursor: pointer;
 
+      img {
+        width: 56px;
+      }
+
       div {
         display: flex;
         flex-direction: column;
@@ -64,6 +68,14 @@
           color: #43484d;
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .oneTwoThree {
+    .actionsSection {
+      flex-direction: column;
     }
   }
 }

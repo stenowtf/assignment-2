@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from 'semantic-ui-react';
+import { Glyphicon } from 'react-bootstrap';
 
 import '../styles/pricing.css';
 
@@ -22,14 +23,14 @@ const Pricing = () => {
           </div>
           <div>
             <ul>
-              <li>2 Gb of space</li>
-              <li>30 days of file recovery</li>
-              <li>MS Office 365 integration</li>
+              <li><Glyphicon glyph="ok" /> 2 Gb of space</li>
+              <li><Glyphicon glyph="ok" /> 30 days of file recovery</li>
+              <li><Glyphicon glyph="ok" /> MS Office 365 integration</li>
               <li className="notSelected">Unlimited third-party integrations</li>
               <li className="notSelected">Remote wipe</li>
             </ul>
           </div>
-          <Button fluid color='green'>Get Started</Button>
+          <Button fluid basic color='blue'>Get Started</Button>
         </div>
 
         <div className="plan">
@@ -44,14 +45,14 @@ const Pricing = () => {
           </div>
           <div>
             <ul>
-              <li>8 Gb of space</li>
-              <li>60 days of file recovery</li>
-              <li>MS Office 365 integration</li>
-              <li>Unlimited third-party integrations</li>
+              <li><Glyphicon glyph="ok" /> 8 Gb of space</li>
+              <li><Glyphicon glyph="ok" /> 60 days of file recovery</li>
+              <li><Glyphicon glyph="ok" /> MS Office 365 integration</li>
+              <li><Glyphicon glyph="ok" /> Unlimited third-party integrations</li>
               <li className="notSelected">Remote wipe</li>
             </ul>
           </div>
-          <Button fluid color='green'>Get Started</Button>
+          <Button fluid basic color='blue'>Get Started</Button>
         </div>
 
         <div className="plan selected">
@@ -66,11 +67,11 @@ const Pricing = () => {
           </div>
           <div>
             <ul>
-              <li>30 Gb of space</li>
-              <li>90 days of file recovery</li>
-              <li>MS Office 365 integration</li>
-              <li>Unlimited third-party integrations</li>
-              <li>Remote wipe</li>
+              <li><Glyphicon glyph="ok" /> 30 Gb of space</li>
+              <li><Glyphicon glyph="ok" /> 90 days of file recovery</li>
+              <li><Glyphicon glyph="ok" /> MS Office 365 integration</li>
+              <li><Glyphicon glyph="ok" /> Unlimited third-party integrations</li>
+              <li><Glyphicon glyph="ok" /> Remote wipe</li>
             </ul>
           </div>
           <Button fluid color='green'>Get Started</Button>
