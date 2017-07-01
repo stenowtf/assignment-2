@@ -18,17 +18,32 @@
 
 ---
 
-### Specific tasks
+## Specific tasks
 
-#### Start the local development server
+### Start the local development server
 
 1. `yarn start` or `npm start`
 1. Visit [http://localhost:3000/](http://localhost:3000/)
 
-#### Run the tests on the console
+### Run the tests on the console
 
 - `yarn test` or `npm test`
 
-#### Build everything for deploy
+### Build everything for deploy
 
 - `yarn build` or `npm build`
+
+---
+
+## To-do list
+
+- MUST: Check different browsers for compatibility
+
+- MUST: Better responsive layout
+
+- MUST: Fine tuning CSS for better resambling of the `.psd`
+
+- Miscellaneous improvements:
+
+  - Header link slide to corrisponding section of the page
+  - Introducing some `Sass` variables
