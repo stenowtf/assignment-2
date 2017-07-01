@@ -36,9 +36,15 @@
       transform: translate(-50%, -50%)
     }
 
+    div {
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
     img {
-      max-width: 200px;
-      display: inline-block;
+      width: 200px;
+      margin-right: 5px;
     }
   }
 

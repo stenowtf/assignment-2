@@ -41,9 +41,16 @@ export default {
       <p>${ details }</p>
     `;
 
-    const imagesHTML = images.map((image) => `
+    const imagesListHTML = images.map((image) => `
       <img src="${ image }" alt="" />
     `).join('');
+
+    const imagesHTML = `
+      <h5>Images:</h5>
+      <div>
+        ${ imagesListHTML }
+      </div>
+    `;
 
     const referencesListHTML = references.map((reference) => `
       <li>
