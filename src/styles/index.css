@@ -1,0 +1,25 @@
+body,
+h1, h2, h3, h4, h5 {
+  font-family: "Roboto", "Open Sans", "Fira Sans", "Lucida Sans", "Lucida Sans Unicode", "Trebuchet MS", "Liberation Sans", "Nimbus Sans L", sans-serif;
+  color: #43484d;
+}
+
+h1 {
+  font-size: 300%;
+  text-align: center;
+}
+
+h2 {
+  border: none;
+  text-align: center;
+  color: #9097a0;
+}
+
+a {
+  color: #358ed7;
+}
+
+a:hover {
+  color: #236ca7;
+  cursor: pointer;
+}

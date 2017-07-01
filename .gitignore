@@ -21,4 +21,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # css
-src/**/*.css
+src/styles/*.css
+!src/**/index.css
