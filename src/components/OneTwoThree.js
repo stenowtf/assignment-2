@@ -1,5 +1,8 @@
 import React from 'react';
+import $ from 'jquery';
 
+import store from '../store.js';
+import { action } from '../action.js';
 import utils from '../utils.js';
 
 // images
@@ -7,33 +10,31 @@ import oneImage from '../images/one.png';
 import twoImage from '../images/two.png';
 import threeImage from '../images/three.png';
 
-// data
-import oneData from '../data/one.json';
-import twoData from '../data/two.json';
-import threeData from '../data/three.json';
-
 import '../styles/oneTwoThree.css';
 
-const onClickOne = () => {
-  utils.fakeAJAXCall(oneData)
+const update = () => {
+  const oneTwoThrees = store.getState();
+  const last = [...oneTwoThrees].pop();
+
+  utils.fakeAJAXCall(last)
     .then((result) => {
-      console.log(result.item);
+      $('.oneTwoThree > .content').html(JSON.stringify(result.item));
     });
+};
+
+const onClickOne = () => {
+  store.dispatch(action('one'));
 };
 
 const onClickTwo = () => {
-  utils.fakeAJAXCall(twoData)
-    .then((result) => {
-      console.log(result.item);
-    });
+  store.dispatch(action('two'));
 };
 
 const onClickThree = () => {
-  utils.fakeAJAXCall(threeData)
-    .then((result) => {
-      console.log(result.item);
-    });
+  store.dispatch(action('three'));
 };
+
+store.subscribe(update);
 
 const OneTwoThree = () => {
   return (
