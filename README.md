@@ -1,6 +1,8 @@
 # fe-test
 
-## Clone the project and install its dependencies
+Welcome! 🙂
+
+## 1. Clone the project and install its dependencies
 
 > Prerequisites: npm, or [yarn](https://yarnpkg.com/lang/en/docs/install/) installed
 
@@ -8,7 +10,7 @@
 1. `cd fe-test`
 1. `yarn install` or `npm install`
 
-## See the results
+## 2. See the results
 
 > Prerequisites: [serve](https://yarnpkg.com/en/package/serve) installed
 
@@ -40,10 +42,18 @@
 - MUST: Check different browsers for compatibility
 
 - MUST: Better responsive layout
+  - Header menu
+  - 1,2,3 buttons
+  - Images on carousel
 
-- MUST: Fine tuning CSS for better resambling of the `.psd`
+- MUST: Fine tuning CSS for better similarity with the `.psd`
 
 - Miscellaneous improvements:
-
-  - Header link slide to corrisponding section of the page
+  - Header links slide the page to corresponding section
   - Introducing some `Sass` variables
+
+---
+
+## Screenshot
+
+![](./screenshot.png?raw=true)
