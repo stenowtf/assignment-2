@@ -41,12 +41,9 @@ Welcome! 🙂
 
 - MUST: Check different browsers for compatibility
 
-- MUST: Better responsive layout
-  - Header menu
-  - 1,2,3 buttons
-  - Images on carousel
-
 - MUST: Fine tuning CSS for better similarity with the `.psd`
+
+- BUG: wrong ratio of the images in the slideshow when resizing the page
 
 - Miscellaneous improvements:
   - Header links slide the page to corresponding section

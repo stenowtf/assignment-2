@@ -49,3 +49,17 @@
     color: #c9cccf;
   }
 }
+
+@media screen and (max-width: 667px) {
+  .contact {
+    h2 {
+      max-width: 90%;
+    }
+
+    .form.ui {
+      .field {
+        width: 90%;
+      }
+    }
+  }
+}

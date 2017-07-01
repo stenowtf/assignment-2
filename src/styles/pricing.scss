@@ -82,3 +82,21 @@
     }
   }
 }
+
+@media screen and (max-width: 667px) {
+  .pricing {
+    h2 {
+      max-width: 90%;
+    }
+
+    .plansContainer {
+      flex-direction: column;
+      align-items: center;
+
+      .plan {
+        width: 95%;
+        margin-bottom: 1em;
+      }
+    }
+  }
+}
